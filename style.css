@@ -1,0 +1,114 @@
+.icon {
+  font-size: 125px;
+}
+
+.fottex {
+  font-size: 15px;
+  background: #d3d3d3;
+  height: 250px;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  transition-duration: 600ms;
+  transition-timing-function: linear;
+}
+
+.img-r {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*.bordeImg {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;        turquesa  #30CFBB  lightseagreen     HEADER COLOR #343a40  
+  -o-border-radius: 50%;
+  width: 300px;                      naranja     #fa7a39     #f8f9f0 blanco
+  height: 300px;                    
+  align-items: center;                gris #343a40
+  justify-content: center;
+  box-sizing: content-box;
+}*/
+
+nav {
+  font-weight: 300;
+  color: #c4dd36;
+  background: rgb(0, 20, 29);
+}
+
+header {
+  color: white;
+  background: rgb(0, 20, 29);
+  height: 400px;
+}
+
+body {
+  background: url(fondo_main.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.iconolinks {
+  color: #343a40;
+  transition-duration: 600ms;
+  transition-timing-function: linear;
+}
+
+.iconolinks:hover {
+  transform: scale(1.2);
+
+  color: whitesmoke;
+  transition-timing-function: linear;
+}
+
+.subrayado {
+  text-decoration: underline;
+  text-decoration-color: #343a40;
+  -moz-text-decoration-color: #343a40;
+  text-underline-position: above;
+}
+
+.iconolinks2 {
+  color: #c4dd36;
+  transition-duration: 600ms;
+  transition-timing-function: linear;
+}
+
+.iconolinks2:hover {
+  transform: scale(1.2);
+  color: white;
+  transition-timing-function: linear;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.shadow {
+  /*box-shadow: sombra H sombra V desenfoque  color;
+  */
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -o-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -ms-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/*navbar*/
+.fixed-top {
+  position: fixed;
+}
